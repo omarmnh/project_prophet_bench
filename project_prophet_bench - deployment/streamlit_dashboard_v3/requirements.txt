@@ -3,10 +3,5 @@ pandas>=2.0
 numpy>=1.26
 plotly>=5.20
 openpyxl>=3.1
-
-# Nécessaire uniquement pour activer le vrai pipeline (config.USE_REAL_MODEL = True)
 prophet>=1.1.5
-
-# Nécessaire uniquement pour l'assistant IA (ai_assistant.py) — clé API à
-# fournir via .streamlit/secrets.toml, jamais en dur dans le code
 google-generativeai>=0.8
