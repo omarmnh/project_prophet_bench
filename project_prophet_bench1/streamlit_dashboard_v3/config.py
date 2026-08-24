@@ -90,6 +90,6 @@ DOMAIN_COLORS = {
 #    sont installés et que vos données réelles sont disponibles.
 # ------------------------------------------------------------------
 USE_REAL_MODEL = True
-REAL_DATA_PATH = "rapport_par_semaine_domaine_training.xlsx"
+REAL_DATA_PATH = "project_prophet_bench1/streamlit_dashboard_v3/rapport_par_semaine_domaine_training.xlsx"
 
 TODAY = date.today()
